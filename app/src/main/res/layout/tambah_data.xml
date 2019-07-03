@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:gravity="center"
+              android:layout_height="match_parent">
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/et_namaPenulis"
+              android:background="@color/tranfaranMaron"
+              android:hint="masukan nama penulis"
+              android:textSize="18sp"
+              android:layout_margin="20sp"
+              android:padding="10dp"
+              android:layout_marginEnd="15dp"
+              android:layout_marginStart="15dp"
+               android:inputType="text"/>
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/et_judulBuku"
+              android:background="@color/tranfaranEmas"
+              android:hint="masukan judul buku"
+              android:textSize="18sp"
+              android:layout_margin="20sp"
+              android:padding="10dp"
+              android:layout_marginEnd="15dp"
+              android:layout_marginStart="15dp"
+              android:inputType="text"/>
+
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/et_tanggal"
+              android:hint="masukan tanggal"
+              android:background="@color/tranfaranMaron"
+              android:textSize="18sp"
+              android:layout_margin="20sp"
+              android:padding="10dp"
+              android:layout_marginEnd="15dp"
+              android:layout_marginStart="15dp"
+              android:inputType="text"/>
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/et_description"
+              android:hint="masukan description"
+              android:background="@color/tranfaranEmas"
+              android:textSize="18sp"
+              android:layout_margin="20sp"
+              android:padding="10dp"
+              android:layout_marginStart="15dp"
+              android:layout_marginEnd="15dp"
+              android:inputType="text"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIMPAN"
+            android:layout_margin="20sp"
+            android:padding="10dp"
+            android:background="@drawable/shape_new_log1"
+            android:id="@+id/btn_simpan"
+    />
+
+
+
+</LinearLayout>

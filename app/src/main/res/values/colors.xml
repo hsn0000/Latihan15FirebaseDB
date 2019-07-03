@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="emas">#ffd700</color>
+    <color name="birulaut">#00ffff</color>
+    <color name="jingga">#ff7f00</color>
+    <color name="hijaucerah">#00ff00</color>
+    <color name="hitampekat">#000000</color>
+    <color name="putih">#ffffff</color>
+    <color name="tranfaranEmas">#FFE4B5</color>
+    <color name="tranfaranMaron">#F08080</color>
+    <color name="abu">#A9A9A9</color>
+
+</resources>
